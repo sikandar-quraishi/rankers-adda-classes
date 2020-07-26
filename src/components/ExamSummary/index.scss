@@ -1,0 +1,12 @@
+.questions {
+  &__summary {
+    span {
+      &.badge {
+        &.counts {
+          width: 25px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

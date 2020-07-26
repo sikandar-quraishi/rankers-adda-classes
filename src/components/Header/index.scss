@@ -1,0 +1,92 @@
+.topbar {
+  position  : sticky;
+  top: 0;
+  z-index   : 50;
+  background: #fff;
+}
+
+.topbar .navbar-collapse {
+  padding: 0px
+}
+
+.topbar .top-navbar {
+  min-height: 50px;
+  padding   : 0px
+}
+
+.topbar .top-navbar .dropdown-toggle:after {
+  display: none
+}
+
+.topbar .top-navbar .navbar-header {
+  line-height: 60px;
+  min-width  : 70px
+}
+
+.topbar .top-navbar .navbar-header .navbar-brand {
+  margin-right  : 0px;
+  padding-bottom: 0px;
+  padding-top   : 0px
+}
+
+.topbar .top-navbar .navbar-header .navbar-brand img {
+  max-width: 150px;
+}
+
+.topbar .top-navbar .navbar-header .navbar-brand b {
+  line-height: 50px;
+  display    : inline-block
+}
+
+.topbar .top-navbar .profile-pic {
+  white-space: nowrap
+}
+
+.topbar .top-navbar .profile-pic img {
+  width        : 30px;
+  border-radius: 100%
+}
+
+.topbar .top-navbar .profile-pic span {
+  font-size  : 14px;
+  white-space: nowrap
+}
+
+.topbar .top-navbar .navbar-nav>.nav-item>.nav-link {
+  padding-left : 15px;
+  padding-right: 15px;
+  font-size    : 25px;
+  line-height  : 50px;
+  color        : #777;
+  padding-top  : 4px;
+}
+
+.topbar .top-navbar .navbar-nav>.nav-item>span {
+  line-height: 45px;
+  font-size  : 24px;
+  font-weight: 500;
+  color      : #fff;
+  padding    : 0 10px
+}
+
+.topbar .dropdown-menu {
+  box-shadow        : 1px 0px 20px rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow   : 1px 0px 20px rgba(0, 0, 0, 0.08);
+  border-color      : #e9ecef
+}
+
+.nav a {
+  padding: 0 20px;
+  color  : #333
+}
+
+// .nav a:hover {
+//   color: #ea6645
+// }
+
+.nav ul,
+.nav ul li {
+  list-style: none;
+}
+

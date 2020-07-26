@@ -1,0 +1,49 @@
+.exam {
+  &__wrapper {
+    display: grid;
+    grid-template-columns: auto 320px;
+    grid-column-gap: 25px;
+    user-select: none;
+
+    .question {
+      ul {
+        list-style: none;
+
+        li {
+          list-style   : none;
+          margin-bottom: 7px;
+          margin: 0 !important;
+          transition: background-color 0.2s ease-in-out;
+
+          &:hover {
+            background-color: #edf1f5;
+          }
+
+          .pretty {
+            .state {
+              svg {
+                font-size: 0.90em !important;
+                width    : calc(1em + 0px) !important;
+                height   : calc(1em + 0px) !important;
+                left     : 12px !important;
+                top      : 50% !important;
+                transform: translateY(-50%) !important;
+              }
+
+              label {
+                text-indent: 1.75em;
+
+                &::before,
+                &::after {
+                  left     : 10px;
+                  top      : 50%;
+                  transform: translateY(-50%);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

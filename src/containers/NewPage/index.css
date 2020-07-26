@@ -1,0 +1,18 @@
+
+.form-control-sm{
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: inherit;
+    margin-bottom: 10px;
+}
+.form-control-sm:focus{
+    outline: none;
+    border:none;
+    box-shadow: none;
+    border-bottom: 1px solid green;
+}
+
+
+
+
+
