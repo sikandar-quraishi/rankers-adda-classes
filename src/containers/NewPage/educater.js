@@ -31,9 +31,21 @@ export class educater extends Component {
             <Card.Body style={{ textAlign: "center" }}>
               <Card.Title>Card title</Card.Title>
               <Card.Text>
-              This card has supporting text below as a natural lead-in to
+                This card has supporting text below as a natural lead-in to
                 additional content.
               </Card.Text>
+              <button class="ui circular facebook icon button">
+                <i class="facebook icon"></i>
+              </button>
+              <button class="ui circular twitter icon button">
+                <i class="twitter icon"></i>
+              </button>
+              <button class="ui circular linkedin icon button">
+                <i class="linkedin icon"></i>
+              </button>
+              <button class="ui circular google plus icon button">
+                <i class="google plus icon"></i>
+              </button>
             </Card.Body>
             {/* <Card.Footer>
               <small className="text-muted">Last updated 3 mins ago</small>
@@ -73,7 +85,7 @@ export class educater extends Component {
             <Card.Body style={{ textAlign: "center" }}>
               <Card.Title>Card title</Card.Title>
               <Card.Text>
-              This card has supporting text below as a natural lead-in to
+                This card has supporting text below as a natural lead-in to
                 additional content.
               </Card.Text>
             </Card.Body>
@@ -97,7 +109,7 @@ export class educater extends Component {
             <Card.Body style={{ textAlign: "center" }}>
               <Card.Title>Card title</Card.Title>
               <Card.Text>
-              This card has supporting text below as a natural lead-in to
+                This card has supporting text below as a natural lead-in to
                 additional content.
               </Card.Text>
             </Card.Body>
