@@ -46,7 +46,7 @@
     "superagent": "^5.2.2",
     "sweetalert": "^2.1.2",
     "universal-cookie": "^4.0.3",
-    "xlsx": "^0.15.6"
+    "xlsx": "^0.17.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
